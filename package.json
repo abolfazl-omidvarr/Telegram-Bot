@@ -1,16 +1,23 @@
 {
-  "name": "telBot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "require": "^2.4.20",
-    "telegraf": "^4.11.2"
-  }
+	"name": "telBot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"openai": "^3.1.0",
+		"require": "^2.4.20",
+		"telegraf": "^4.11.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
 }

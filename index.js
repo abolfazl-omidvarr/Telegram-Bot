@@ -13,6 +13,7 @@ const bot = new Telegraf(process.env.TEL_KEY);
 
 const runPrompt = async (msg) => {
 	let data;
+
 	try {
 		const prompt = msg;
 		const response = await openai.createCompletion({
